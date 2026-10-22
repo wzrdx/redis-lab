@@ -1,0 +1,9 @@
+{
+    "name": "@redis-lab/redis",
+    "private": true,
+    "type": "module",
+    "exports": "./src/client.ts",
+    "dependencies": {
+        "redis": "^6.3.0"
+    }
+}

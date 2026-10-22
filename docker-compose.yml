@@ -1,0 +1,11 @@
+services:
+    redis:
+        image: redis:8
+        ports: ["6379:6379"]
+        command: ["redis-server", "--appendonly", "yes"]
+        volumes: [redis-data:/data]
+    insight:
+        image: redis/redisinsight:latest
+        ports: ["5540:5540"] # in Insight, connect to host "redis", port 6379
+volumes:
+    redis-data:

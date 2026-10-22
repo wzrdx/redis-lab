@@ -1,0 +1,6 @@
+packages:
+    - "packages/*"
+    - "apps/*"
+    - "labs"
+allowBuilds:
+  esbuild: true

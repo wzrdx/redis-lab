@@ -1,0 +1,7 @@
+{
+    "name": "labs",
+    "type": "module",
+    "dependencies": {
+        "@redis-lab/redis": "workspace:*"
+    }
+}
