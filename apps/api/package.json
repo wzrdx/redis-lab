@@ -1,0 +1,16 @@
+{
+    "name": "api",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/server.ts",
+        "start": "tsx src/server.ts"
+    },
+    "dependencies": {
+        "@redis-lab/redis": "workspace:*",
+        "express": "^5.3.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6"
+    }
+}

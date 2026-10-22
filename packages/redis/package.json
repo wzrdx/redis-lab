@@ -2,7 +2,10 @@
     "name": "@redis-lab/redis",
     "private": true,
     "type": "module",
-    "exports": "./src/client.ts",
+    "exports": {
+        ".": "./src/client.ts",
+        "./keys": "./src/keys.ts"
+    },
     "dependencies": {
         "redis": "^6.3.0"
     }

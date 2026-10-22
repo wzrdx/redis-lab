@@ -16,6 +16,7 @@ docker compose exec redis redis-cli               # interactive CLI
 docker compose exec redis redis-cli MONITOR       # stream every command Redis receives
 
 pnpm install
+pnpm dev                                          # API on :3000 (PORT env), restarts on save
 pnpm --filter labs exec tsx ping.ts               # run a lab script (connectivity check)
 pnpm exec tsc -p packages/redis                   # type check a package
 ```

@@ -97,9 +97,9 @@ Goal: a working workspace and a feel for how Redis executes commands, especially
 **Build:**
 
 - [✅] Scaffold the pnpm workspace, `docker-compose.yml` and `packages/redis` client.
-- [ ] Express app with a `/health` endpoint that runs `PING`.
-- [ ] Graceful shutdown: close the Redis connection on `SIGINT`/`SIGTERM`.
-- [ ] Pick a key naming convention, e.g. `event:42`, `hold:event:42:seat:A7`.
+- [✅] Express app with a `/health` endpoint that runs `PING`.
+- [✅] Graceful shutdown: close the Redis connection on `SIGINT`/`SIGTERM`.
+- [✅] Pick a key naming convention, e.g. `event:42`, `hold:event:42:seat:A7`.
 
 **Prove it:**
 
