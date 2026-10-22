@@ -103,7 +103,7 @@ Goal: a working workspace and a feel for how Redis executes commands, especially
 
 **Prove it:**
 
-- [ ] Load 1M keys with a pipelined script in `labs/`, then compare `KEYS *` with `SCAN`. While `KEYS` runs, time a `PING` from a second client: Redis runs commands one at a time, so everything else waits.
+- [✅] Load 1M keys with a pipelined script in `labs/`, then compare `KEYS *` with `SCAN`. While `KEYS` runs, time a `PING` from a second client: Redis runs commands one at a time, so everything else waits.
 - [ ] Compare `DEL` vs `UNLINK` on a very large key (`UNLINK` frees memory in the background).
 
 ## Phase 1: Caching
